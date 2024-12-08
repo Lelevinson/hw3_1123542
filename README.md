@@ -32,19 +32,27 @@ Note: Do traverse in the same order as they are in the adjacency list.
 <br>
 Input:
 <br>
-adj = [[2,3,1], [0], [0,4], [0], [2]]
+adj = {
+    {1, 3},       // Neighbors of node 0
+    {0, 2, 4},    // Neighbors of node 1
+    {1, 5},       // Neighbors of node 2
+    {0},          // Neighbors of node 3
+    {1, 5},       // Neighbors of node 4
+    {2, 4}        // Neighbors of node 5
+};
 <br>
 Output:
 <br>
-[0, 2, 3, 1, 4]
+0 1 3 2 4 5
 <br>
 Explanation: 
 Starting from 0, the BFS traversal will follow these steps: 
-Visit 0 → Output: 0 
-Visit 2 (first neighbor of 0) → Output: 0, 2 
-Visit 3 (next neighbor of 0) → Output: 0, 2, 3 
-Visit 1 (next neighbor of 0) → Output: 0, 2, 3, 
-Visit 4 (neighbor of 2) → Final Output: 0, 2, 3, 1, 4
+Visit 0 → Output: 0, 1, 3
+Visit 1  → Output: 0, 1, 3, 2, 4
+Visit 3  → Output: 0, 1, 3, 2, 4
+Visit 2  → Output: 0, 1, 3, 2, 4, 5
+Visit 4  → Final Output: 0, 1, 3, 2, 4, 5
+Visit 5  → Final Output: 0, 1, 3, 2, 4, 5
 <br>
 
 ---
