@@ -62,18 +62,25 @@ Given a connected undirected graph represented by an adjacency list adj, whic
 Note: Do traverse in the same order as they are in the adjacency list.
 <br>
 Input:
-adj = [[1, 2], [0, 2], [0, 1, 3, 4], [2], [2]]
+adj = {
+        {1, 3},    // Neighbors of node 0
+        {0, 2, 4}, // Neighbors of node 1
+        {1, 5},    // Neighbors of node 2
+        {0},       // Neighbors of node 3
+        {1, 5},    // Neighbors of node 4
+        {2, 4}     // Neighbors of node 5
+    };
 <br>
 Output:
-[0, 1, 2, 3, 4]
+DFS Traversal: 0 1 2 5 4 3 
 <br>
-Explanation: 
-Starting from 0, the DFS traversal proceeds as follows: 
-Visit 0 → Output: 0 
-Visit 1 (the first neighbor of 0) → Output: 0, 1 
-Visit 2 (the first neighbor of 1) → Output: 0, 1, 2 
-Visit 3 (the first neighbor of 2) → Output: 0, 1, 2, 3 
-Backtrack to 2 and visit 4 → Final Output: 0, 1, 2, 3, 4
+Explanation:
+Start from 0 → Visit 0 → Output: 0
+Visit 1 → Output: 0, 1
+Visit 2 → Output: 0, 1, 2
+Visit 5 → Output: 0, 1, 2, 5
+Backtrack to 1 → Visit 4 → Output: 0, 1, 2, 5, 4
+Backtrack to 0 → Visit 3 → Output: 0, 1, 2, 5, 4, 3
 <br>
 
 ---
