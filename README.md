@@ -127,16 +127,18 @@ Given a weighted, undirected, and connected graph with V vertices and E edges, y
 <br>
 Input:
 <br>
-V = 3, E = 3
+V = 4, E = 5
 <br>
-0 1 5
+0 1 10
 <br>
-1 2 3
+0 2 5
 <br>
-0 2 1
+1 2 2
+<br>
+1 3 1
+<br>
+2 3 3
 <br>
 Output:
-4
 <br>
-Explanation:
-The Spanning Tree resulting in a weight of 4 is shown above.
+8
