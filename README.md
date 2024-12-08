@@ -7,6 +7,7 @@ Problem Statement:
 Given an undirected graph with V nodes and E edges, create and return an adjacency list of the graph. 0-based indexing is followed everywhere.
 <br>
 Input:
+<br>
 V = 4, E = 4
 edges = {{0, 1}, {0, 2}, {1, 3}, {2, 3}}
 <br>
@@ -40,6 +41,7 @@ Note: Do traverse in the same order as they are in the adjacency list.
 Input:
 <br>
 adj = {
+<br>
     {1, 3},       // Neighbors of node 0
     <br>
     {0, 2, 4},    // Neighbors of node 1
@@ -82,7 +84,9 @@ Given a connected undirected graph represented by an adjacency list adj, whic
 Note: Do traverse in the same order as they are in the adjacency list.
 <br>
 Input:
+<br>
 adj = {
+<br>
         {1, 3},    // Neighbors of node 0
         <br>
         {0, 2, 4}, // Neighbors of node 1
@@ -122,6 +126,7 @@ Backtrack to 0 → Visit 3 → Output: 0, 1, 2, 5, 4, 3
 Given a weighted, undirected, and connected graph with V vertices and E edges, your task is to find the sum of the weights of the edges in the Minimum Spanning Tree (MST) of the graph. The graph is represented by an adjacency list, where each element adj[i] is a vector containing vector of integers. Each vector represents an edge, with the first integer denoting the endpoint of the edge and the second integer denoting the weight of the edge.
 <br>
 Input:
+<br>
 V = 3, E = 3
 <br>
 0 1 5
