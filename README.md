@@ -12,14 +12,21 @@ edges = {{0, 1}, {0, 2}, {1, 3}, {2, 3}}
 <br>
 Output:
 0: 1 2 
+<br>
 1: 0 3
+<br>
 2: 0 3
+<br>
 3: 1 2
 <br>
 Explanation:
+<br>
 Node 0 is connected to 1 and 2.
+<br>
 Node 1 is connected to 0 and 3.
+<br>
 Node 2 is connected to 0 and 3.
+<br>
 Node 3 is connected to 1 and 2.
 <br>
 
@@ -34,11 +41,17 @@ Input:
 <br>
 adj = {
     {1, 3},       // Neighbors of node 0
+    <br>
     {0, 2, 4},    // Neighbors of node 1
+    <br>
     {1, 5},       // Neighbors of node 2
+    <br>
     {0},          // Neighbors of node 3
+    <br>
     {1, 5},       // Neighbors of node 4
+    <br>
     {2, 4}        // Neighbors of node 5
+    <br>
 };
 <br>
 Output:
@@ -46,12 +59,19 @@ Output:
 0 1 3 2 4 5
 <br>
 Explanation: 
+<br>
 Starting from 0, the BFS traversal will follow these steps: 
+<br>
 Visit 0 → Output: 0, 1, 3
+<br>
 Visit 1  → Output: 0, 1, 3, 2, 4
+<br>
 Visit 3  → Output: 0, 1, 3, 2, 4
+<br>
 Visit 2  → Output: 0, 1, 3, 2, 4, 5
+<br>
 Visit 4  → Final Output: 0, 1, 3, 2, 4, 5
+<br>
 Visit 5  → Final Output: 0, 1, 3, 2, 4, 5
 <br>
 
@@ -64,22 +84,35 @@ Note: Do traverse in the same order as they are in the adjacency list.
 Input:
 adj = {
         {1, 3},    // Neighbors of node 0
+        <br>
         {0, 2, 4}, // Neighbors of node 1
+        <br>
         {1, 5},    // Neighbors of node 2
+        <br>
         {0},       // Neighbors of node 3
+        <br>
         {1, 5},    // Neighbors of node 4
+        <br>
         {2, 4}     // Neighbors of node 5
+        <br>
     };
 <br>
 Output:
+<br>
 DFS Traversal: 0 1 2 5 4 3 
 <br>
 Explanation:
+<br>
 Start from 0 → Visit 0 → Output: 0
+<br>
 Visit 1 → Output: 0, 1
+<br>
 Visit 2 → Output: 0, 1, 2
+<br>
 Visit 5 → Output: 0, 1, 2, 5
+<br>
 Backtrack to 1 → Visit 4 → Output: 0, 1, 2, 5, 4
+<br>
 Backtrack to 0 → Visit 3 → Output: 0, 1, 2, 5, 4, 3
 <br>
 
