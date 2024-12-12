@@ -11,9 +11,10 @@ Input:
 V = 4, E = 4
 edges = {{0, 1}, {0, 2}, {1, 3}, {2, 3}}
 <br>
-![5c5cf82d-6510-48e7-834e-311f933ce758_1685086928](https://github.com/user-attachments/assets/e7efc122-ab2d-47b5-ac23-3d102a84ae36)
+![5c5cf82d-6510-48e7-834e-311f933ce758_1685086928](https://github.com/user-attachments/assets/9ab5e8c6-b53a-47b0-b067-291cda0b8984)
 <br>
 Output:
+<br>
 0: 1 2 
 <br>
 1: 0 3
@@ -58,7 +59,7 @@ adj = {
     <br>
 };
 <br>
-![image](https://github.com/user-attachments/assets/dd252563-24f7-4c88-b42e-718f774cfe03)
+
 <br>
 Output:
 <br>
@@ -105,7 +106,7 @@ adj = {
         <br>
     };
 <br>
-![image](https://github.com/user-attachments/assets/3dc221e1-9776-431e-a309-c2ad75d01943)
+
 <br>
 Output:
 <br>
@@ -145,7 +146,7 @@ V = 4, E = 5
 <br>
 2 3 3
 <br>
-![image](https://github.com/user-attachments/assets/8eba3a4a-4476-4fc9-80c9-78356ddeaff0)
+
 <br>
 Output:
 <br>
