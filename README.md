@@ -111,6 +111,8 @@ adj = {
     };
 <br>
 
+![image](https://github.com/user-attachments/assets/3dc221e1-9776-431e-a309-c2ad75d01943)
+
 <br>
 Output:
 <br>
@@ -151,7 +153,16 @@ V = 4, E = 5
 2 3 3
 <br>
 
+![image](https://github.com/user-attachments/assets/8eba3a4a-4476-4fc9-80c9-78356ddeaff0)
+
 <br>
 Output:
 <br>
 8
+<br>
+explanation:
+<br>
+
+![image](https://github.com/user-attachments/assets/7536f7bc-7cdd-4eed-9733-c91cc10943c4)
+
+<br>
