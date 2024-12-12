@@ -11,7 +11,9 @@ Input:
 V = 4, E = 4
 edges = {{0, 1}, {0, 2}, {1, 3}, {2, 3}}
 <br>
-![5c5cf82d-6510-48e7-834e-311f933ce758_1685086928](https://github.com/user-attachments/assets/9ab5e8c6-b53a-47b0-b067-291cda0b8984)
+
+![5c5cf82d-6510-48e7-834e-311f933ce758_1685086928](https://github.com/user-attachments/assets/9120a111-5561-432c-9cc2-ea9c9283ee6e)
+
 <br>
 Output:
 <br>
