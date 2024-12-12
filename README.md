@@ -11,6 +11,8 @@ Input:
 V = 4, E = 4
 edges = {{0, 1}, {0, 2}, {1, 3}, {2, 3}}
 <br>
+![image](https://github.com/user-attachments/assets/e817f811-9f7e-4b4e-a121-ae7239bc8a05)
+<br>
 Output:
 0: 1 2 
 <br>
@@ -55,6 +57,8 @@ adj = {
     {2, 4}        // Neighbors of node 5
     <br>
 };
+<br>
+![image](https://github.com/user-attachments/assets/dd252563-24f7-4c88-b42e-718f774cfe03)
 <br>
 Output:
 <br>
@@ -101,6 +105,8 @@ adj = {
         <br>
     };
 <br>
+![image](https://github.com/user-attachments/assets/3dc221e1-9776-431e-a309-c2ad75d01943)
+<br>
 Output:
 <br>
 DFS Traversal: 0 1 2 5 4 3 
@@ -138,6 +144,8 @@ V = 4, E = 5
 1 3 1
 <br>
 2 3 3
+<br>
+![image](https://github.com/user-attachments/assets/8eba3a4a-4476-4fc9-80c9-78356ddeaff0)
 <br>
 Output:
 <br>
