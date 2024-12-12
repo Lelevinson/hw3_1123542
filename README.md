@@ -62,6 +62,8 @@ adj = {
 };
 <br>
 
+![image](https://github.com/user-attachments/assets/dd252563-24f7-4c88-b42e-718f774cfe03)
+
 <br>
 Output:
 <br>
